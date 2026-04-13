@@ -6,9 +6,10 @@ import pytest
 from fastapi.testclient import TestClient
 
 
-TEST_DB_PATH = Path("/workspaces/AGX-travel/test_agx.db")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TEST_DB_PATH = PROJECT_ROOT / "test_agx.db"
 os.environ["DATABASE_URL"] = f"sqlite:///{TEST_DB_PATH}"
-sys.path.insert(0, "/workspaces/AGX-travel")
+sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.main import app  # noqa: E402
 
