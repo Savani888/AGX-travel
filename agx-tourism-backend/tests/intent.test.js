@@ -1,5 +1,0 @@
-describe('Intent service placeholder', () => {
-  it('runs test scaffold', () => {
-    expect(true).toBe(true);
-  });
-});
