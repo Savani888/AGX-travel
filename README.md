@@ -206,6 +206,13 @@ Error categories include:
 4. API:
 	 - `http://localhost:8000/docs`
 
+Port note:
+
+- Docker Compose exposes the API on port 8000.
+- Port 8001 is optional and only used if you start uvicorn manually with a different port.
+- Example manual run from this folder:
+	- `uvicorn app.main:app --host 127.0.0.1 --port 8001`
+
 ## Security And Safe Commit Guide
 
 - Never commit `.env` or real API keys.
