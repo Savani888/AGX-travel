@@ -1,0 +1,8 @@
+### Intent Service - Extract Intent
+POST http://localhost:3001/api/v1/intent/extract
+Content-Type: application/json
+
+{
+  "user_query": "5-day Kerala eco-tour 50000 INR",
+  "user_id": "550e8400-e29b-41d4-a716-446655440000"
+}
