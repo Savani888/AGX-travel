@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agx-tourism-engine"
+version = "0.1.0"
+description = "Agentic Explainable AI backend for smart tourism planning"
+requires-python = ">=3.12"
+readme = "README.md"
+dependencies = []
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I"]

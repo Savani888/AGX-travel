@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "solo traveler",
+    "query": "Plan a 3 day Paris culture trip with museums and cafes under $500",
+    "expected": {"style": "balanced", "interests": ["art", "culture"]}
+  },
+  {
+    "scenario": "family trip",
+    "query": "Need a 4 day family friendly itinerary in Paris with kid activities",
+    "expected": {"style": "slow", "interests": ["family", "parks"]}
+  },
+  {
+    "scenario": "budget travel",
+    "query": "3 day budget travel Paris backpacking with cheap food under $300",
+    "expected": {"style": "fast", "interests": ["budget", "street food"]}
+  },
+  {
+    "scenario": "luxury tourism",
+    "query": "5 day luxury Paris experience with fine dining and private transport",
+    "expected": {"style": "balanced", "interests": ["luxury", "fine dining"]}
+  },
+  {
+    "scenario": "eco tourism",
+    "query": "Plan 3 day eco friendly tourism in Paris with green transport",
+    "expected": {"style": "balanced", "interests": ["eco", "nature"]}
+  },
+  {
+    "scenario": "cultural tourism",
+    "query": "4 day cultural tourism in Paris with heritage sites and performances",
+    "expected": {"style": "balanced", "interests": ["culture", "history"]}
+  }
+]

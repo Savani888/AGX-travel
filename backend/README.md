@@ -1,15 +1,3 @@
-# AGX-travel
-
-Repository layout:
-
-- [backend](backend): FastAPI backend application, API contracts, tests, and deployment files.
-
-## Quick Start
-
-1. `cd backend`
-2. `cp .env.example .env`
-3. `docker compose up --build`
-4. Open `http://localhost:8000/docs`
 # AGX Tourism Engine Backend
 
 Production-style FastAPI backend for AGX (Agentic Explainable AI) smart tourism planning.
